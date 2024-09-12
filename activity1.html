@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style>
+            input[type="text" ]{
+                border:2px solid green;
+            }
+        input[type="password"]{
+            border:2px solid blue;
+        }
+         ul>li{
+          color:yellowgreen;
+         }
+         h4+p{
+            color:brown;
+         }
+         a:hover{
+            color: salmon;
+         }
+         li:nth-child(2){
+            background-color:aqua ;
+        }
+        div:not(.div1){
+            border: 2px dashed goldenrod;
+        }
+        a::after{
+            content:"🎊"
+        }
+        li::before{
+            content:"☕";
+        }
+        p::first-letter{
+            font-size:40px;
+        }
+        </style>
+    </head>
+    <body>
+        <h3>Advanced selector</h3>
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <h3>Child selector</h3>
+        <ul>
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>milk</li>
+        </ul>
+        <h3>Siblings selector</h3>
+        <h4>This is Heading</h4>
+        <p id="p1">This is first paragraph</p>
+        <p id="p2">This is second paragraph</p>
+        <a href="#">Welcome to Codingal</a>
+        <div class="div1">This is First Division</div>
+        <div class="div2">This is Second Division</div>
+    </body>
+</html>
